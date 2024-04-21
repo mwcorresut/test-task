@@ -31,7 +31,6 @@ function sortTable(e, ord) {
     const rows = Array.from(tbody.querySelectorAll("tr"));
 
     const colNum = e.target.cellIndex + 1;
-    console.log(colNum);
     rows.sort((a, b) => {
         const cellA = a.querySelector(`td:nth-child(${colNum})`);
         const cellB = b.querySelector(`td:nth-child(${colNum})`);
