@@ -1,0 +1,35 @@
+.tornament-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.tornament-table table thead th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+.tornament-table table thead .place-col {
+  width: 5%;
+}
+.tornament-table table thead .name-col {
+  width: 20%;
+}
+.tornament-table table thead .city-col {
+  width: 20%;
+}
+.tornament-table table thead .car-col {
+  width: 20%;
+}
+.tornament-table table thead .points-col {
+  width: 10%;
+}
+.tornament-table table thead .sortable {
+  cursor: pointer;
+}
+.tornament-table table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.tornament-table table tbody tr td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}/*# sourceMappingURL=style.css.map */
